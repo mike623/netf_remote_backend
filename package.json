@@ -1,0 +1,26 @@
+{
+  "name": "netf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "chrome-launcher": "^0.13.2",
+    "electron": "^9.0.0",
+    "express": "^4.17.1",
+    "jsonfile": "^6.0.1",
+    "puppeteer": "^3.1.0",
+    "puppeteer-core": "^3.1.0",
+    "puppeteer-in-electron": "^3.0.1",
+    "temp-write": "^4.0.0"
+  }
+}
