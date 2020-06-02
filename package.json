@@ -18,6 +18,7 @@
     "electron": "^9.0.0",
     "express": "^4.17.1",
     "jsonfile": "^6.0.1",
+    "morgan": "^1.10.0",
     "puppeteer": "^3.1.0",
     "puppeteer-core": "^3.1.0",
     "puppeteer-in-electron": "^3.0.1",

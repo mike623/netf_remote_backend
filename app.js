@@ -1,4 +1,5 @@
 const bp = require("body-parser");
+var morgan = require('morgan')
 const { getVol, mute, setVol } = require("./mac-control");
 
 async function goTo(page, url) {
@@ -10,6 +11,7 @@ async function goTo(page, url) {
 }
 
 async function serve(app, page) {
+  app.use(morgan('tiny'));
   app.use(bp.json());
   app.get("/go", async (req, res) => {
     const { url } = req.query;
